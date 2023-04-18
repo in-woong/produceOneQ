@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className='absolute h-16 bottom-0 w-full grid gap-4 grid-cols-5 z-1'>
+    <footer className='absolute h-16 bottom-0 w-full grid grid-cols-5  border-t border-subTwo'>
       <div className='flex justify-center items-center'>
         <span className='text-center'>홈</span>
       </div>
