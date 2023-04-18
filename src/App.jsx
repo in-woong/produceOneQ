@@ -1,10 +1,17 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import FundPage from './pages/FundPage';
+import FundSelectPage from './pages/FundSelectPage';
+import MainPage from './pages/MainPage';
+
 function App() {
   return (
-    <>
-      <button className='bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3'>
-        hi
-      </button>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MainPage />} />
+        <Route path='/fund' element={<FundPage />} />
+        <Route path='/fund/:id' element={<FundSelectPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
