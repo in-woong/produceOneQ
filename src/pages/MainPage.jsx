@@ -9,7 +9,7 @@ export default function MainPage() {
     <>
       <div>
         <Header />
-        <h1>MainPage</h1>
+        <img src='/img/mainImage.png' alt='mainimage' />
         <Footer />
       </div>
       <Modal open={open} setOpen={setOpen} />

@@ -8,18 +8,14 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className='bg-white'>
+    <header className='bg-white pt-2'>
       <nav
-        className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'
+        className='mx-auto flex max-w-7xl items-center justify-between p-2'
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
           <span className='sr-only'>Your Company</span>
-          <img
-            className='h-8 w-auto'
-            src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-            alt=''
-          />
+          <img className='h-12 w-auto' src='/img/logo.png' alt='logo' />
         </div>
 
         <div className='flex space-x-5'>
