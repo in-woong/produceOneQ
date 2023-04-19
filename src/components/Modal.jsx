@@ -43,7 +43,7 @@ export default function Modal({ open, setOpen }) {
                   <img src='/img/poster.png' alt='poster' />
                   <Link
                     to='/fund'
-                    className=' bg-white flex justify-center items-center absolute top-[290px] left-[40px] bg-transparent hover:bg-subTwo text-blue-700  hover:text-white py-1 px-14  rounded-xl'
+                    className=' bg-white flex justify-center items-center absolute top-[330px] left-[50px] bg-transparent  hover:bg-subTwo text-blue-700  hover:text-white py-2 px-14  rounded-xl'
                   >
                     <span className='text-xs text-font'>신청하러가기</span>
                   </Link>
