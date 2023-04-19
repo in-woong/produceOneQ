@@ -2,18 +2,11 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Token from '../components/Token';
 
-export default function WalletPage({ name, count, total }) {
+export default function WalletPageNoNY() {
   return (
     <>
       <Header />
       <img src='/img/wallet.png' alt='wallet' />
-      <Token
-        name='나 연'
-        count='3'
-        total='5,100'
-        plus='+700(70%)'
-        icon={'nyIcon'}
-      />
       <Token
         name='장원영'
         count='3'
